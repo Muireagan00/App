@@ -105,7 +105,7 @@ function App() {
               <a href="https://facebook.com" className="social-icon" target="_blank" rel="noopener noreferrer">
                 f
               </a>
-              <a href="https://linkedin.com" className="social-icon" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/paddy-serridge-73951a295/" className="social-icon" target="_blank" rel="noopener noreferrer">
                 in
               </a>
             </div>
@@ -125,8 +125,8 @@ function App() {
         <section id="about" className="info-section">
           <h2>Your Trusted Partner in Concrete Formwork</h2>
           <p>
-            PS Formworks is a reinforced concrete and formwork contractor with our main headquarters based in London.
-            Founded by industry veterans, our highly qualified team has over 20 years' experience and know-how to ensure
+            PS Formworks is a reinforced concrete and formwork contractor with our main headquarters based in Newry.
+            Founded by industry veterans, our highly qualified team has over 10 years' experience and know-how to ensure
             that your project runs smoothly. We provide a reliable service to customers across the UK.
           </p>
           <p>
@@ -179,10 +179,16 @@ function App() {
               <img src="/Image6.jpg?width=400&height=300" alt="Gallery image 3" />
             </div>
             <div className="gallery-item">
-              <img src="/Image3.jpg?width=400&height=300" alt="Gallery image 4" />
+              <img src="/NewImage.jpg?width=400&height=300" alt="Gallery image 4" />
             </div>
             <div className="gallery-item">
               <img src="/Image7.jpg?width=400&height=300" alt="Gallery image 5" />
+            </div>
+            <div className="gallery-item">
+              <img src="/Image8.jpg?width=400&height=300" alt="Gallery image 6" />
+            </div>
+            <div className="gallery-item">
+              <img src="/Image8.jpg?width=400&height=300" alt="Gallery image 6" />
             </div>
             <div className="gallery-item">
               <img src="/Image8.jpg?width=400&height=300" alt="Gallery image 6" />
@@ -205,16 +211,8 @@ function App() {
                 <h3>Email</h3>
                 <p>paddy@psformworks.com</p>
               </div>
-              <div className="contact-item">
-                <h3>Business Hours</h3>
-                <p>
-                  Monday - Friday: 7:00 AM - 6:00 PM
-                  <br />
-                  Saturday: 8:00 AM - 4:00 PM
-                </p>
-              </div>
             </div>
-            <div className="social-media">
+            {/* <div className="social-media">
               <h3>Follow Us</h3>
               <div className="social-icons">
                 <a href="#" className="social-icon facebook">
@@ -230,7 +228,15 @@ function App() {
                   🐦
                 </a>
               </div>
-            </div>
+            </div> */}
+              <div className="contact-item">
+                <h3>Business Hours</h3>
+                <p>
+                  Monday - Friday: 7:00 AM - 6:00 PM
+                  <br />
+                  Saturday: 8:00 AM - 4:00 PM
+                </p>
+              </div>
           </div>
         </div>
       </section>
