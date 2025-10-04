@@ -2,10 +2,8 @@ name: Deploy Vite to gh-pages branch
 on:
   push:
     branches: [ main ]
-
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,4 +18,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: psformworks.com   # keeps your custom domain file in the branch
+          cname: psformworks.com
